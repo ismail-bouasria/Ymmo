@@ -18,6 +18,7 @@ header{
     font-weight: bolder;
 }
 
+/* Navbar css */
 header nav {
     display: flex;
     justify-content: space-between;
@@ -50,5 +51,42 @@ header nav .nav-links a {
 }
 header nav .nav-links a:hover {
     color: #087063;
+}
+
+/* button*/
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn {
+    background-color: #087063;
+    border: 2px solid #087063;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.login-btn:hover {
+    background-color: #065a4f;
+}
+.signup-btn {
+    background-color: white;
+    color: #087063;
+    border: 2px solid #087063;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.signup-btn:hover {
+    color: white;
+    background-color: #087063;
+   
 }
                                                
